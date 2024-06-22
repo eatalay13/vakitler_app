@@ -1,10 +1,10 @@
 import { StyleSheet } from 'react-native';
 import Animated, {
-  useSharedValue,
   useAnimatedStyle,
-  withTiming,
+  useSharedValue,
   withRepeat,
   withSequence,
+  withTiming,
 } from 'react-native-reanimated';
 
 import { ThemedText } from '@/components/ThemedText';
@@ -23,7 +23,7 @@ export function HelloWave() {
 
   return (
     <Animated.View style={animatedStyle}>
-      <ThemedText style={styles.text}>👋</ThemedText>
+      <ThemedText style={styles.text}>🙌</ThemedText>
     </Animated.View>
   );
 }
